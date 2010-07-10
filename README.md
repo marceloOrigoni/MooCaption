@@ -1,8 +1,7 @@
 mooltiselect
 ===========
-
+![Screenshot](http://marcelo.origoni.com.ar/images/moocaption.png)
 	- mooCaption adds captions to images, with various effects, and any position. The Caption can fade in, slide it, or be always present. Inspired in jQuery Captify Plugin, by Brian Reavis
-	  
 How to use
 ----------
 
@@ -26,3 +25,9 @@ How to use
 		Yeah, 1 extra step, but I love to call it this way.
 		#JS
 		captions.captionize();
+
+Changelog:
+----------
+
+V. 1.0.1  	- Fixed bug width top position in slide mode.
+			- Remove Sortable requirement.

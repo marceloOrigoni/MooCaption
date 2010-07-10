@@ -111,7 +111,7 @@ var mooCaption = new Class({
 						to = margin + $(divCon).getStyle('height').toInt();
 						$(div).setStyle('top', '-' + to + 'px');
 					}else{
-						$(div).setStyle('top', '-' + $(divCon).getStyle('height').toInt() + 'px');
+						$(div).setStyle('top', '-0px');
 					}
 					$(div).setStyle('opacity',opacity);					
 					$(divCon).addEvent('mouseover', function(){

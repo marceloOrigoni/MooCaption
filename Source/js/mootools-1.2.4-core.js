@@ -1,23 +1,22 @@
 /*
 ---
 description:     
-  - mooltisetec allow you to create a multiselect combobox from any html tag, also allows you to make it sortable or set a maximum of options.
+  - mooCaption adds captions to images, with various effects, and any position. The Caption can fade in, slide it, or be always present. Inspired in jQuery Captify Plugin, by Brian Reavis
 
 authors:
   - Marcelo Origoni
 
 version:
-  - 1.1.4
+  - 1.0
 
 license:
   - MIT-style license
 
 requires:
   - core/1.2.1:   '*'
-  - more/Drag:    'Sortables'
   
 provides:
-  - mooltiselect
+  - mooCaption
 ...
 */
 //MooTools, <http://mootools.net>, My Object Oriented (JavaScript) Tools. Copyright (c) 2006-2009 Valerio Proietti, <http://mad4milk.net>, MIT Style License.
