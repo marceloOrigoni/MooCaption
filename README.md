@@ -17,8 +17,10 @@ How to use
 			mode: 'slide',						// 'fade', 'slide', 'on', 'random', if random selected, any of the other 3 effects will be applied.
 			classposition: 'caption',			// the name of the CSS class to apply to the caption box         
 			position: 'bottom',					// position of the caption (top or bottom)
+			slideFrom: 'normal', 				// 'normal', 'left', 'right'. Only applicable to slide mode, sets where the caption shoudl slide from.			
 			images: 'capt',						// class of the images, if blank, all images in the page.
-			opacity: '0.7'						// Only used with the fade mode, set the final opacity of the caption.
+			opacity: '0.7',						// Only used with the fade mode, set the final opacity of the caption.
+			transition: 'Quart.easeIn'			// Sets de Fx.Transitions Method, used to display the caption, check http://www.mootools.net/docs/core/Fx/Fx.Transitions for more info.			
 		});
 	
 	3. captionize!.
@@ -28,6 +30,9 @@ How to use
 
 Changelog:
 ----------
+
+V. 1.1		- Added slideForm option
+			- Added transition option
 
 V. 1.0.1  	- Fixed bug width top position in slide mode.
 			- Remove Sortable requirement.

@@ -6,8 +6,8 @@
 		<script type="text/javascript" src="./js/mooCaption.js"></script>
 		<script type="text/javascript">
 			window.addEvent('domready', function(){
-				var caption = new mooCaption({position: 'top',mode: 'slide',speedOver: 500});
-				caption.captionize();
+				var caption = new mooCaption();
+				caption.captionize({position: 'bottom',mode: 'fade',speedOver: 500,slideFrom: 'left',transition: 'Bounce.easeOut'});
 			});
 		</script>
 	</head>

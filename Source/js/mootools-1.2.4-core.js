@@ -7,7 +7,7 @@ authors:
   - Marcelo Origoni
 
 version:
-  - 1.0
+  - 1.1
 
 license:
   - MIT-style license
