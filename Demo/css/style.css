@@ -1,0 +1,26 @@
+.wrapper{
+	margin: 0px auto 0px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	width: 650px;
+}
+
+img.capt{
+	float: left;
+	border: 1px solid #000;
+	margin: 4px;
+	}
+	
+div.caption{
+	margin: 0px;
+	z-index: 1;
+	border-top: 1px solid #000;
+	background: #fff;
+	color: #000080;
+	height: 40px;
+	width: 100%;
+	position: relative; /* Caption MUST have both float left and position relative*/
+	float: left; 		/* To work in both, IE and FF */
+	opacity: 0.7;
+	}
+

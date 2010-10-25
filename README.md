@@ -11,7 +11,7 @@ How to use
 	2.  Call mooCaption.
 		here the default values.
 		#JS
-		var captions = new mooCaption({
+		new mooCaption({
 			speedOver: 'short',					// speed of the mouseover effect # short' - 250ms # 'normal' - 500ms # 'long' - 1000ms, or any number od ms
 			speedOut: 'normal',					// speed of the mouseout effect # short' - 250ms # 'normal' - 500ms # 'long' - 1000ms, or any number od ms
 			mode: 'slide',						// 'fade', 'slide', 'on', 'random', if random selected, any of the other 3 effects will be applied.
@@ -23,13 +23,12 @@ How to use
 			transition: 'Quart.easeIn'			// Sets de Fx.Transitions Method, used to display the caption, check http://www.mootools.net/docs/core/Fx/Fx.Transitions for more info.			
 		});
 	
-	3. captionize!.
-		Yeah, 1 extra step, but I love to call it this way.
-		#JS
-		captions.captionize();
-
 Changelog:
 ----------
+
+V. 1.2		- Cleaned the code
+			- Mootools 1.3 compatible
+			- removed the extra step to captionize
 
 V. 1.1		- Added slideForm option
 			- Added transition option
