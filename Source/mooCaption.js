@@ -7,13 +7,13 @@ authors:
   - Marcelo Origoni
 
 version:
-  - 1.1
+  - 1.2
 
 license:
   - MIT-style license
 
 requires:
-  - core/1.2.1:   '*'
+  - core/1.2 || core/1.3
   
 provides:
   - mooCaption

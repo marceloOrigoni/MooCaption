@@ -1,6 +1,6 @@
 mooltiselect
 ===========
-![Screenshot](http://marcelo.origoni.com.ar/images/moocaption.png)
+![Screenshot](http://marcelo.origoni.com.ar/images/mooCaption.png)
 	- mooCaption adds captions to images, with various effects, and any position. The Caption can fade in, slide it, or be always present. Inspired in jQuery Captify Plugin, by Brian Reavis
 How to use
 ----------
